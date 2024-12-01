@@ -94,18 +94,18 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: Capa 1
+  - name: Background 1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 92
+      x: 108
       y: 4
-      width: 4834
+      width: 4804
       height: 2733
-    spriteID: 33dd35af01f15774aba376f9389f864b
+    spriteID: 62bfabb648e34d8479a5728e5d07f203
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -114,7 +114,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-    spritePosition: {x: 0, y: 25}
+    spritePosition: {x: 0, y: 0}
   characterData:
     bones: []
     parts: []
@@ -185,12 +185,12 @@ ScriptedImporter:
   resliceFromLayer: 0
   mosaicPSDLayers: []
   rigPSDLayers:
-  - name: Capa 1
-    spriteName: Capa 1
+  - name: Background 1
+    spriteName: Background 1
     isGroup: 0
     parentIndex: -1
-    spriteID: 33dd35af01f15774aba376f9389f864b
-    layerID: 2
+    spriteID: 62bfabb648e34d8479a5728e5d07f203
+    layerID: 5
     mosaicPosition: {x: 4, y: 4}
     flatten: 0
     isImported: 1
