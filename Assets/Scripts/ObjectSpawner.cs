@@ -21,6 +21,10 @@ public class ObjectSpawner : MonoBehaviour
 
     void Update()
     {
+        // Deja de spawnear si el jugador no se mueve
+        if (Input.GetAxisRaw("Horizontal") <= 0)
+            return;
+
         // Temporizador para gestionar el spawn
         timer += Time.deltaTime;
         if (timer >= spawnRate)
