@@ -377,6 +377,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item: {fileID: 0}
+  isConsumed: 0
 --- !u!114 &-132729623256013973
 MonoBehaviour:
   m_ObjectHideFlags: 0
