@@ -11,5 +11,8 @@ This is a very simple game, so there are only three mechanics:
 <ul>
 <li>Moving forward by pressing either the <b>D</b> key or the <b>Right arrow</b>.</li>
 <li>Opening the inventory by pressing the <b>ESC</b> key.</li>
-<li>"Consuming" an item from the inventory by clicking on it.</li>
+<li>"Consuming" an item from the inventory by clicking on it. When the item is consumed, it will dissapear from the inventory and a message will be displayed.</li>
 </ul>
+<h2>Assets</h2>
+For the car sprites, I downloaded it in the Unity Asset Store: https://assetstore.unity.com/packages/tools/physics/2d-car-73763.</br>
+The rest of the sprites has been created by me.
