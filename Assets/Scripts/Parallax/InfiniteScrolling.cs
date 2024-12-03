@@ -9,12 +9,6 @@ public class InfiniteScrolling : MonoBehaviour
     public float scrollSpeed; // Velocidad base del fondo
     public float segmentWidth; // Ancho de cada segmento
 
-    void Start()
-    {
-        //segmentWidth += segments[0].GetComponent<SpriteRenderer>().bounds.size.x;
-        Debug.Log(segments[0].name + segmentWidth);
-    }
-
     void Update()
     {
         foreach (Transform segment in segments)
